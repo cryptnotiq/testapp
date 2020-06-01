@@ -27,7 +27,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 
-const appName = "fraktal"
+const (
+appName = "fraktal"
+Bech32MainPrefix = "frak"
+)
 
 var (
 	// TODO: rename your cli
