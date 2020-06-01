@@ -30,6 +30,7 @@ import (
 const (
 appName = "fraktal"
 Bech32MainPrefix = "frak"
+Bip44CoinType    = 459 // see https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 )
 
 var (
